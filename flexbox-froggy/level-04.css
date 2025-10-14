@@ -4,5 +4,5 @@ Now the lilypads on the edges have drifted to the shore, increasing the space be
 
 #pond {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }

@@ -5,5 +5,5 @@ Now the current has bunched the lilypads at the bottom. Use align-content to gui
 #pond {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-end
+    align-content: flex-end;
 }

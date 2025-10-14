@@ -14,5 +14,5 @@ This can be confusing, but align-content determines the spacing between lines, w
 #pond {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start
+    align-content: flex-start;
 }

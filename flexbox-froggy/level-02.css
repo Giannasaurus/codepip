@@ -9,5 +9,5 @@ space-around: Items display with equal spacing around them.
 
 #pond {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }

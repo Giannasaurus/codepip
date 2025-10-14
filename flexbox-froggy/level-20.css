@@ -8,5 +8,5 @@ Try using flex-flow to repeat the previous level.
 
 #pond {
     display: flex;
-    flex-flow: column wrap
+    flex-flow: column wrap;
 }

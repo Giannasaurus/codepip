@@ -9,5 +9,5 @@ column-reverse: Items are placed bottom to top.
 
 #pond {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }

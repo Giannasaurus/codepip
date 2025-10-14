@@ -5,5 +5,5 @@ Help this army of frogs form three orderly columns using a combination of flex-d
 #pond {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }

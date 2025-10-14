@@ -7,5 +7,5 @@ Notice that when the flex direction is a column, justify-content changes to the 
 #pond {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end
+    justify-content: flex-end;
 }

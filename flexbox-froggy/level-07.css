@@ -5,5 +5,5 @@ The frogs need to cross the pond again, this time for some lilypads with plenty 
 #pond {
     display: flex;
     justify-content: space-around;
-    align-items: flex-end
+    align-items: flex-end;
 }

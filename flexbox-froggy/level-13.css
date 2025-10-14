@@ -6,5 +6,5 @@ Help the frogs find their lilypads using flex-direction, justify-content, and al
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    align-items: flex-end
+    align-items: flex-end;
 }
