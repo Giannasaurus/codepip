@@ -1,0 +1,26 @@
+/*
+Thank you for volunteering at the Anchoreum, the third greatest anchor museum in the world.
+
+We're preparing a new exhibit. The ship anchors have been mounted to the walls, but we need your help positioning their labels.
+
+For this task, you'll make use of CSS anchor, which lets you to position an element (the label in this case) relative to another (the anchor). Before, this required JavaScript. Now it takes only a few lines of CSS.
+
+Start with the position-area property, which declares where the positioned element is placed in relation to the anchor. Here are a few values it accepts:
+
+- top left
+- top right
+- bottom left
+- bottom right
+
+This label should be mounted on the bottom right corner of the anchor. A dark box highlights this target area. Input position-area: bottom right to position it there.
+*/
+
+#anchor {
+    anchor-name: --a1;
+}
+
+#label {
+    position: absolute;
+    position-anchor: --a1;
+    position-area: bottom right;
+}

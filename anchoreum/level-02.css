@@ -1,0 +1,17 @@
+/*
+This anchor is in a slightly different position. Notice that if you again set the label's position-area to bottom right, it gets positioned next to the anchor just the same as before.
+
+Drag the anchor around and notice how the label stays tethered once it's in position.
+
+Double-click the anchor to reset it to its original position.
+*/
+
+#anchor {
+    anchor-name: --a1;
+}
+
+#label {
+    position: absolute;
+    position-anchor: --a1;
+    position-area: bottom right
+}

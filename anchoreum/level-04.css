@@ -1,0 +1,15 @@
+/*
+Use the position-area property again here.
+
+To refresh your memory about this property, click the property name above.
+*/
+
+#anchor {
+    anchor-name: --a1;
+}
+
+#label {
+    position: absolute;
+    position-anchor: --a1;
+    position-area: bottom left;
+}

@@ -1,0 +1,15 @@
+/*
+CSS anchor is handy for positioning things like dropdown menus, tooltips, selects, and dialogs. The ways you can use it are limited only by your imagination.
+
+But back to work. Use position-area here to mount the label.
+*/
+
+#anchor {
+    anchor-name: --a1;
+}
+
+#label {
+    position: absolute;
+    position-anchor: --a1;
+    position-area: top left;
+}

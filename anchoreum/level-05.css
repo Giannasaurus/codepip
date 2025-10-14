@@ -1,0 +1,21 @@
+/*
+CSS anchor positioning requires some setup:
+
+- The anchor element must be given a name with the anchor-name property. This name must start with a double dash: --.
+- The positioned element must have position set to either absolute or fixed.
+- The positioned element should have position-anchor set to the anchor name.
+
+If these conditions aren't met, the anchor is invalid and won' t work.
+
+Set position-anchor: --a1; here to get it working.
+*/
+
+#anchor {
+    anchor-name: --a1;
+}
+
+#label {
+    position: absolute;
+    position-anchor: --a1;
+    position-area: bottom left;
+}
